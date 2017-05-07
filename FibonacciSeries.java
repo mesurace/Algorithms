@@ -2,6 +2,10 @@ package com.algorithms;
 
 import java.util.Arrays;
 
+/**
+ * @author suresh adhikari
+ *
+ */
 public class FibonacciSeries {
 
 	public static void main(String[] args) {
@@ -9,6 +13,9 @@ public class FibonacciSeries {
 		System.out.println(Arrays.toString(fibo1(10)));
 	}
 
+	/**
+	 * iterative method to display fibo numbers
+	 */
 	public static void fibo(int n) {
 		int n1 = 0;
 		int n2 = 1;
@@ -22,6 +29,12 @@ public class FibonacciSeries {
 		}
 	}
 
+	/**
+	 * Use Dynamic Programming to get fibonacci series
+	 * 
+	 * @param n
+	 * @return result which is array of fibo series
+	 */
 	public static int[] fibo1(int n) {
 		int[] result = new int[n];
 		result[0] = 0;
