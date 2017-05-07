@@ -4,6 +4,10 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * @author suresh adhikari
+ *
+ */
 public class ElectionWinner {
 	public static void main(String[] args) throws IOException {
 
