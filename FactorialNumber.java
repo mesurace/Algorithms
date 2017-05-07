@@ -22,11 +22,11 @@ public class FactorialNumber {
 		return result;
 	}
 
-     /**
+	/**
 	 * recursion method to calculate factorial of a number 
 	 */
 	public static int factorialRecursion(int n) {
-		if (n < 2)
+		if (n==0)
 			return 1;
 		else
 			return n * factorialRecursion(n - 1);
