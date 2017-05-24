@@ -10,7 +10,7 @@ public class SecondSmallestElement {
 	static int secondSmallestElement(int[] array){
 		
 		int small=array[0];
-		int secondSmall=array[1];
+		int secondSmall=array[1];  // second small element
 		
 		if(small>secondSmall){
 			small=array[1];
