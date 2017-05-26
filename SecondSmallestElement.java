@@ -9,6 +9,9 @@ public class SecondSmallestElement {
 	
 	static int secondSmallestElement(int[] array){
 		
+		if(array.length<2){
+		        return null;
+		}
 		int small=array[0];
 		int secondSmall=array[1]; 
 		
