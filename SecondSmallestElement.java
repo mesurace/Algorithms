@@ -9,11 +9,15 @@ public class SecondSmallestElement {
 	
 	static int secondSmallestElement(int[] array){
 		
+		
+		int small;
+		int secondSmall; 
+		
 		if(array.length<2){
 		        return null;
 		}
-		int small=array[0];
-		int secondSmall=array[1]; 
+		small=array[0];
+		secondSmall=array[1]; 
 		
 		if(small>secondSmall){
 			small=array[1];
