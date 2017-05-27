@@ -8,8 +8,6 @@ public class SecondSmallestElement {
 	}
 	
 	static int secondSmallestElement(int[] array){
-		
-		
 		int small;
 		int secondSmall; 
 		
