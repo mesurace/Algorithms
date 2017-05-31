@@ -11,9 +11,6 @@ public class SecondSmallestElement {
 		int small;
 		int secondSmall; 
 		
-		if(array.length<2){
-		        return null;
-		}
 		small=array[0];
 		secondSmall=array[1]; 
 		
