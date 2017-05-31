@@ -7,6 +7,7 @@ public class SecondSmallestElement {
 
 	}
 	
+	// array size must be greater than 1
 	static int secondSmallestElement(int[] array){
 		int small;
 		int secondSmall; 
