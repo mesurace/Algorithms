@@ -6,12 +6,12 @@ public class SecondSmallestElement {
 		System.out.println(secondSmallestElement(new int[]{9, 4, 1, 8, 21, 13, 19}));
 
 	}
-	
-	// array size must be greater than 1
 	static int secondSmallestElement(int[] array){
 		int small;
 		int secondSmall; 
-		
+		if(array.length<2){
+		     return 0;
+		}
 		small=array[0];
 		secondSmall=array[1]; 
 		
