@@ -22,16 +22,16 @@ public class TreeTraversal {
 	void inOrder(Node root) {
 		if (root == null)
 			return;
-		preOrder(root.left);
+		inOrder(root.left);
 		System.out.println(root.data + " ");
-		preOrder(root.right);
+		inOrder(root.right);
 	}
 
 	void postOrder(Node root) {
 		if (root == null)
 			return;
-		preOrder(root.left);
-		preOrder(root.right);
+		postOrder(root.left);
+		postOrder(root.right);
 		System.out.println(root.data + " ");
 	}
 
