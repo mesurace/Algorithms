@@ -1,13 +1,15 @@
 /**
  * Given a  2D Array, A:
- * 		1 1 1 0 0 0
+ * 		
+ *		1 1 1 0 0 0
  *   	0 1 0 0 0 0
  *  	1 1 1 0 0 0
  *  	0 0 0 0 0 0
  *  	0 0 0 0 0 0
  *  	0 0 0 0 0 0
  *  and an hourglass in A:   
- *   	a b c
+ *   	
+ *		a b c
  * 	  	  d
  * 		e f g
  * This algorithm calculate the hourglass sum for every hourglass in A, 
