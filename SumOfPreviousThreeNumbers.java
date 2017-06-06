@@ -19,6 +19,32 @@ public class SumOfPreviousThreeNumbers {
 	/**
 	 * @param int n
 	 * @return nth number which is sum of previous three
+	 * iterative way
+	 */
+	public static int nTHSum(int n){
+
+        if(n == 1|| n==2 ||n==3)
+            return n;
+
+
+        int prev = 3;
+        int nextP = 2;
+        int nextNextP =1;
+        int sum = (prev+nextP+nextNextP) ;
+        for(int i=4;i<=n;i++){
+            sum =(prev+nextP+nextNextP);
+            nextNextP = nextP;
+            nextP = prev;
+            prev = sum;
+        }
+
+        return sum;
+    }
+	
+	/**
+	 * @param int n
+	 * @return nth number which is sum of previous three
+	 * using recursion
 	 */
 	public static int findNthNumber(int n) {
 		int[] array = new int[3];
