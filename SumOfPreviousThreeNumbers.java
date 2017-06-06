@@ -12,6 +12,10 @@ public class SumOfPreviousThreeNumbers {
 
 	public static void main(String[] args) {
 
+		//if 100<n<10^9 is greater
+		System.out.println(nTHSum(1000000000));
+
+		//if n<100
 		System.out.println(findNthNumber(6));
 	}
 
