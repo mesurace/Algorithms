@@ -20,13 +20,9 @@ public class PalindromeNumber {
 
 			reverseNumber = reverseNumber * 10 + temp % 10;
 			temp = temp / 10;
-
 		}
 
-		if (n == reverseNumber)
-			return true;
-
-		return false;
+		return n == reverseNumber;
 
 	}
 
