@@ -4,8 +4,9 @@ public class SecondSmallestElement {
 
 	public static void main(String[] args) {
 		try {
-			System.out.println(secondSmallest(new int[]{9, 4, 1, 8, 21, 13, 19}));
+			System.out.println(secondSmallest(new int[] { 9, 4, 1, 8, 21, 13, 19 }));
 		} catch (Exception e) {
+
 			e.printStackTrace();
 		}
 	}
@@ -14,8 +15,6 @@ public class SecondSmallestElement {
 
 		if (a.length < 2)
 			throw new Exception();
-		if (a.length == 2)
-			return a[1];
 
 		int small = Integer.MAX_VALUE;
 		int secondSmall = Integer.MAX_VALUE;
