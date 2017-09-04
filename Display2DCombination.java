@@ -8,8 +8,7 @@ public class Display2DCombination {
 
 	}
 
-	// method to print all the combinations of words from 2D array which have
-	// different number of elements in its sub arrays.
+	// method to print all the combinations of words from 2D Jagged Array
 	public static void printCombinations(String[][] words) {
 
 		int sizeArray[] = new int[words.length];
